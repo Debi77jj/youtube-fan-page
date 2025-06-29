@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My YouTube Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #181818;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #202020;
+      padding: 20px;
+    }
+    header img {
+      height: 50px;
+    }
+    h1 {
+      color: #ff0000;
+    }
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .video-container iframe {
+      margin: 10px;
+      width: 300px;
+      height: 170px;
+      border: none;
+    }
+    .search-link {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .search-link:hover {
+      background: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+  </header>
+  <h1>Welcome to My YouTube Page</h1>
+  <p>Discover awesome videos and search YouTube easily.</p>
+  <a class="search-link" href="https://www.youtube.com/" target="_blank">Go to YouTube</a>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
